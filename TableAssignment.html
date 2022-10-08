@@ -4,24 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>Document</title>
+    <title>MyTable</title>
   </head>
-  
   <style>
-    table,
-    td,
-    th {
-      border: 1px solid blueviolet;
+        table,
+        td,
+        th {
+          border: 1px solid blueviolet;
+        }
+        th, td {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
     }
+    table {
+      border-spacing: 5px;
   </style>
-
   <body>
     <table width="100%">
       <caption id="My table">
-        SS2 class of St. Benedict high school. Class Teacher: Mr Ade
+        <h1 id="SS2Class">SS2 Class of St. Benedict High School. Class Teacher: Mr Ade</h1>
+        
       </caption>
       <thead>
         <tr>
+          <h1 class="Heading">Class List</h1>
           <th>S/N</th>
           <th>Students</th>
           <th>Mathematics</th>
@@ -36,8 +44,8 @@
         <tr>
           <td>1</td>
           <td>Adekunle</td>
-          <td>72</td>
-          <td>43</td>
+          <td class="72">Score</td>
+          <td class="43">Score</td>
           <td>78</td>
           <td>73</td>
           <td>37</td>
